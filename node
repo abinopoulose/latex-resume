@@ -1,0 +1,380 @@
+% \documentclass[letterpaper,11pt]{article}
+
+
+\documentclass[10pt,a4paper]{article}
+
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% \newcommand{\resumeProjectHeading}[2]{
+%     \item
+%     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+%       \small#1 & #2 \\
+%     \end{tabular*}\vspace{-7pt}
+% }
+
+
+
+% My command
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+% my command end
+
+
+
+
+
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape ABINO POULOSE} \\ \vspace{1pt}
+    \href{tel:00917306216456}{\underline{+91-73062-16456} } $|$ \href{mailto:abinopoulose@outlook.com}{\underline{abinopoulose@outlook.com}} $|$ 
+    \href{https://www.linkedin.com/in/abinopoulose}{\underline{linkedin.com/in/abinopoulose}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  
+  \resumeProjectHeading {\textbf{Viswajyothi College of Engineering and Technology, Vazhakulam}   }{APJAKTU}
+  
+  \resumeProjectHeading {\hphantom{spaces}\textbf{Bachelor of Technology (Honours)} in  \textbf{Computer Science Engineering}
+  | \textbf{CGPA: 8.64}
+  }{2019 -- 2023}
+  
+  
+  \resumeProjectHeading {\hphantom{spaces}Minor Degree in \textbf{ Civil Engineering} }{}
+
+
+\vspace{4pt}
+
+    \resumeSubheading
+      {Viswadeepthi CMI Public School, Adimali}{CBSE}
+      {\hphantom{spaces}\textbf{XII} |  Percentage:\textbf{ 82\%}}{2017 -- 2019}
+ \resumeSubheading
+      {Viswadeepthi CMI Public School, Adimali  }{CBSE}
+      {\hphantom{spaces}\textbf{X} | CGPA:\textbf{ 9.4}}{2016 -- 2017}      
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+
+\section{Experience}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Engineer - Qburst } }{2023 - Present}
+          \resumeItemListStart
+            \resumeItem{Engineered backend services for the internal ticketing system using NestJS and PostgreSQL, delivering scalable, high-performance data management.}
+            \resumeItem{Designed and built an automated email notification module to streamline ticket alerts and improve internal communication workflows.}
+            \resumeSubHeadingListEnd
+
+
+         \resumeProjectHeading
+          {\textbf{Junior Software Developer - Tinos [Part Time] } }{2021 - 2023}
+          \resumeItemListStart
+            \resumeItem{Built and maintained full-stack websites, handling both front-end and back-end development.}
+            \resumeItem{Collaborated with clients to gather requirements and clarify project scope.}
+            \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListEnd
+            
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+    
+     \resumeProjectHeading
+          {\textbf{Qburst Ticketing System} $|$ \emph{React \& NestJS }}{\href{https://support.qburst.com/}{\underline{support.qburst.com}}}
+          \resumeItemListStart
+            \resumeItem{Engineered backend services using NestJS, seamlessly integrating PostgreSQL for scalable, high-performance data management}
+            \resumeItem{Developed front-end components in React according to UI designs, ensuring a responsive and user-friendly interface.}
+             \resumeItem{Configured a GitLab CI/CD pipeline to automate deployment, ensuring reliable and consistent releases}
+            \resumeItemListEnd
+
+
+
+
+
+       \resumeProjectHeading
+          {\textbf{Seconds} $|$ \emph{Node.js }}{}
+          \resumeItemListStart
+            \resumeItem{Developed the backend for a second-hand marketplace using Node.js, including API endpoints for product listings and user profiles}
+            \resumeItem{Integrated real-time chat functionality using Socket.IO to enhance user communication.}
+            \resumeItemListEnd
+
+
+
+       % \resumeProjectHeading
+       %    {\textbf{Tinos Security and Software Solutions} $|$ \emph{Laravel }}{\href{https://tinos.co.in}{\underline{tinos.co.in}}}
+       %    \resumeItemListStart
+       %      \resumeItem{Developed the company website and automated many tasks using Laravel}
+       %      \resumeItem{ Added document verification to the site}
+       %      \resumeItemListEnd
+
+
+          
+            
+      \resumeProjectHeading
+          {\textbf{Association of Engineers } $|$ \emph{ Codeigniter	 }}{ \href{https://associationofengineers.com/}{\underline{associationofengineers.com}}  }
+          \resumeItemListStart
+           \resumeItem{Implemented a modern front-end theme to refresh the site’s look and improve usability.}
+           \resumeItem{Developed new admin‐panel features to enable adding and managing organization members.}
+          \resumeItemListEnd
+
+
+
+
+           
+   \resumeProjectHeading
+          {\textbf{Aaron Recruitment Ltd} $|$ \emph{PHP}}{
+          % \href{https://aaronrecruitment.co.uk/}{\underline{aaronrecruitment.co.uk}}
+          }
+          \resumeItemListStart
+           \resumeItem{Modernized the front-end by implementing a new template, giving the site a contemporary look and improved user experience.}
+           \resumeItem{Developed and integrated new admin-panel features, including automated email functionality for the mailing list}
+          \resumeItemListEnd    
+              
+
+        
+
+
+     
+
+
+    \resumeSubHeadingListEnd
+
+
+
+%----------------------Certifications----------------------
+\section{Certifications}
+\resumeSubHeadingListStart
+
+\begin{tabular}{p{0.48\textwidth} p{0.48\textwidth}}
+  \href{https://www.udemy.com/certificate/UC-74fbcba7-c291-4155-b22c-7dd2fdf50ed3/}
+  {\underline{The Complete SQL Bootcamp}\small\(\nearrow\)}
+  &
+  \href{https://www.udemy.com/certificate/UC-f70731a5-8f99-4cd9-9941-8e31a00ece06/}{\underline{Node.js, Express, MongoDB: The Complete Bootcamp}\small\(\nearrow\)}
+  \\
+  \href{https://www.udemy.com/certificate/UC-f9c0754a-098b-4b96-baa6-269b9a422f8f/}{\underline{GitLab CI/CD: Pipelines, CI/CD and DevOps}\small\(\nearrow\)}
+  &
+  \href{https://www.udemy.com/certificate/UC-f4b85859-3794-468d-ba2e-e9e734b3a42a/}{\underline{Docker \& Kubernetes– The Complete Developers Guide}\small\(\nearrow\)}
+  \\
+\end{tabular}
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+
+\resumeSubHeadingListStart
+
+
+  
+  \resumeProjectHeading {
+  \textbf{ Backend}
+  : NestJS, Node.js, Laravel, Codeigniter, PHP, Express.js
+  }
+
+   
+  \resumeProjectHeading {
+  \textbf{ Database}
+  : PostgreSQL, MySQL, SQL, MongoDB
+  }
+
+  
+
+  
+ \resumeProjectHeading {
+  \textbf{ Frontend }
+  : React, HTML, CSS, JavaScript
+  }
+
+    \resumeProjectHeading {
+  \textbf{ Languages}
+  : C++, Python, Java
+  }
+
+
+  \resumeProjectHeading {
+  \textbf{ Technologies}
+  : Git, Nginx, Docker, GitLab CI/CD
+  }
+
+\resumeSubHeadingListEnd  
+
+
+
+
+
+
+
+%-----------Referencews-----------
+\section{References}
+\resumeSubHeadingListStart
+
+
+\vspace{4pt}
+
+
+
+\resumeSubheading
+{Mr. Kripadas Kannan - Associate Architect, Qburst}{}
+{
+Phone: 
+\href{tel:9778197173} {\underline{91-9778197173}} 
+$|$ Email: 
+\href{mailto:kripadas.kannan@qburst.com} {\underline{kripadas.kannan@qburst.com}}
+}{}
+
+
+\vspace{4pt}
+
+
+\resumeSubheading
+{Mr. Jefin Abdul Jaleel - Lead Engineer, Qburst}{}
+{
+Phone: 
+\href{tel:8921425679} {\underline{91-8921425679}}
+$|$ Email: 
+\href{mailto:jefin.abdul@qburst.com} {\underline{jefin.abdul@qburst.com}}
+}{}
+
+
+
+
+% \resumeSubheading
+% {Mr. Dalvy Mathew - CEO, Tinos Software and Security Solutions}{}
+% {
+% Phone: 
+% \href{tel:7907346442} {\underline{91-79073-46442}}
+% $|$ Email: 
+% \href{mailto:dalvy.mathew@tinos.co.in} {\underline{dalvy.mathew@tinos.co.in}}
+% }{}
+
+\vspace{4pt}
+
+
+
+
+
+% \resumeSubheading
+% {Mrs. Arsha J.K. - Associate Professor, Viswajyothi College of Engineering and Technology}{}
+% {
+% Phone: 
+% \href{tel:9567966176} {\underline{91-95679-66176}}
+% $|$ Email: 
+% \href{mailto:arshaj@vjcet.org} {\underline{arshaj@vjcet.org}}
+% }{}
+
+
+   
+\resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
